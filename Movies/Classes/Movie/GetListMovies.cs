@@ -1,6 +1,7 @@
 ﻿namespace Movies.Classes.Movie
 {
-    public class GetListMovies
+    //Класс для получения фильмов из списка 
+    internal class GetListMovies
     {
         IGetterList list;
         public GetListMovies(IGetterList list)

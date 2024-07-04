@@ -1,9 +1,11 @@
 ﻿namespace Movies.Classes.Movie
 {
+    //Интерфейс для создания зависимости
     interface IGetterList
     {
         void PrintListMovies();
     }
+    //Класс для хранения списка фильмов 
     internal class ListMovie : IGetterList
     {
         List<Movie> l_movies = new List<Movie>();

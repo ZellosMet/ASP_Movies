@@ -1,5 +1,6 @@
 ﻿namespace Movies.Classes.Movie
 {
+    //Класс фильмов
     public class Movie
     {
         public string Name { get; }

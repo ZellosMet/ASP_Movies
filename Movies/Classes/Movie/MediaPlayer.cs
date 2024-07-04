@@ -1,5 +1,6 @@
 ﻿namespace Movies.Classes.Movie
 {
+    //Класс проигрывателя фильмов
     public class MediaPlayer
     {
         public Movie Movie { get; }
